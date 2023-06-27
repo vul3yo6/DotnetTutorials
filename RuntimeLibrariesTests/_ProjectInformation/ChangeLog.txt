@@ -1,0 +1,4 @@
+﻿
+2023/06/26
+	(1) 新增 DependencyInjection 測試
+	(2) 新增 FileGlobbing 測試
