@@ -55,7 +55,7 @@ namespace RuntimeLibrariesTests
         }
 
         [Test]
-        public void Matcher_IncludePatterns_Case1()
+        public void GetRequiredSection_GetObject_Case1()
         {
             // Arrange
             IConfiguration configRoot = new ConfigurationBuilder()
@@ -83,6 +83,26 @@ namespace RuntimeLibrariesTests
 
             // Assert
             CollectionAssert.AreEqual(expected, actual);
+        }
+
+        [Test]
+        public void GetSection_GetObject_Case1()
+        {
+            // Arrange
+            IConfiguration configRoot = new ConfigurationBuilder()
+                .AddJsonFile(FileName, true, true)
+                .Build();
+
+            Settings? expected = null;
+
+            // Act
+
+            // Get values from the config given their key and their target type.
+            // need Microsoft.Extensions.Configuration.Binder
+            Settings? actual = configRoot.GetSection("NULL").Get<Settings>();
+
+            // Assert
+            Assert.AreEqual(expected, actual);
         }
     }
 }
