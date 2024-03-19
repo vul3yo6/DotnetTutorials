@@ -13,7 +13,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotnetLibrariesTests", "Dot
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotnetBasic", "DotnetBasic\DotnetBasic.csproj", "{73F56573-FA20-4FD9-A2CF-B471067BF140}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotnetLibraries", "DotnetLibraries\DotnetLibraries.csproj", "{701E74D8-32DE-41FC-9E0B-994B4048A229}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotnetLibraries", "DotnetLibraries\DotnetLibraries.csproj", "{701E74D8-32DE-41FC-9E0B-994B4048A229}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alpha.Repeat", "Alpha.Repeat\Alpha.Repeat.csproj", "{0583635A-9A1F-49EC-A0E0-4B62448DE6A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotnetWebApi", "DotnetWebApi\DotnetWebApi.csproj", "{63370D85-56EB-45E9-8FAD-0222F5975A0A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +49,14 @@ Global
 		{701E74D8-32DE-41FC-9E0B-994B4048A229}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{701E74D8-32DE-41FC-9E0B-994B4048A229}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{701E74D8-32DE-41FC-9E0B-994B4048A229}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0583635A-9A1F-49EC-A0E0-4B62448DE6A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0583635A-9A1F-49EC-A0E0-4B62448DE6A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0583635A-9A1F-49EC-A0E0-4B62448DE6A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0583635A-9A1F-49EC-A0E0-4B62448DE6A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63370D85-56EB-45E9-8FAD-0222F5975A0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63370D85-56EB-45E9-8FAD-0222F5975A0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63370D85-56EB-45E9-8FAD-0222F5975A0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63370D85-56EB-45E9-8FAD-0222F5975A0A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
