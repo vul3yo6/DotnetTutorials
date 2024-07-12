@@ -328,7 +328,7 @@ namespace DotnetLibraries
         /// <summary>
         /// Decrypt with AES256
         /// </summary>
-        /// <param name=""encryptData">>Encrypt string in base64</param>
+        /// <param name="encryptData">>Encrypt string in base64</param>
         /// <param name="key">256 bits as key, i.g.: "1234567890abcdef"</param>
         /// <param name="iv">128 bits as initialization vector</param>
         /// <returns></returns>

@@ -93,7 +93,7 @@ namespace DotnetLibrariesTests
         }
 
         [Test]
-        public void Test_AES_MSDN_Case2()
+        public void Test_AES_IMRC_Case2()
         {
             // Arrange
             var key = "12345678901234567890123456789012";
